@@ -1,0 +1,7 @@
+name: hello-world
+on: [hello]
+jobs:
+  print-salutation:
+    runs-on: ubuntu-latest
+    steps:
+      - run: make say-hello
