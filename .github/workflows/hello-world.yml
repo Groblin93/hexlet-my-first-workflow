@@ -1,5 +1,5 @@
 name: hello-world
-on: [hello]
+on: push
 jobs:
   print-salutation:
     runs-on: ubuntu-latest
